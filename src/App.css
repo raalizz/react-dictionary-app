@@ -1,0 +1,16 @@
+:root {
+  --main-font: Arial, sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --main-color: #d0d6cc;
+}
+
+body {
+  background-image: url(images/background-pic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--main-font);
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
