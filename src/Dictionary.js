@@ -8,7 +8,7 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <header>
-        <h7>What word would you like to search?</h7>
+        <h6>What word would you like to search?</h6>
         <SearchBar />
       </header>
       <Footer />
