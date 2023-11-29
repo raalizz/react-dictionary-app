@@ -1,0 +1,21 @@
+:root {
+  --main-font: Arial, sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --main-color: #faf2ee;
+  --secondary-color: #f7bf9d;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: var(--main-font);
+  margin: 10px;
+}
+
+header {
+  background-image: url(images/header-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 200px 0;
+}
