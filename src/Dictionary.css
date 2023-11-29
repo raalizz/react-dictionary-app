@@ -19,3 +19,9 @@ header {
   text-align: center;
   padding: 200px 0;
 }
+
+@media (max-width: 550px) {
+  header {
+    padding: 80px 0;
+  }
+}
