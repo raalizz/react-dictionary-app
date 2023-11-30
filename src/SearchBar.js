@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import "./SearchBar.css";
+import Results from "./Results";
 
 export default function SearchBar() {
   const [keyword, setKeyword] = useState("");
+  const [results, setResults] = useState(null);
 
   function Search(event) {
     event.preventDefault();
@@ -14,7 +16,9 @@ export default function SearchBar() {
     axios.get(apiUrl).then(handleResponse);
   }
 
-  function handleResponse(response) {}
+  function handleResponse(response) {
+    setResults(response.data[0]);
+  }
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
@@ -30,6 +34,7 @@ export default function SearchBar() {
           autoFocus={true}
         />
       </form>
+      <Results results={results} />
     </div>
   );
 }
