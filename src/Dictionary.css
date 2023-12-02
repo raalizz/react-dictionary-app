@@ -1,5 +1,5 @@
 :root {
-  --main-font: Arial, sans-serif;
+  --main-font: "Roboto", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --main-color: #faf2ee;
   --secondary-color: #f7bf9d;
@@ -53,6 +53,7 @@ header {
   }
   .Dictionary h1 {
     font-size: 35px;
+
     margin: -50px 0 20px;
   }
 }
