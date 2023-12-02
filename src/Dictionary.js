@@ -30,17 +30,16 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <header>
-        <h6>What word would you like to search?</h6>
-        <div className="SearchBar">
-          <form onSubmit={Search}>
-            <input
-              type="search"
-              onChange={handleKeywordChange}
-              className="searchEngine"
-              autoFocus={true}
-            />
-          </form>
-        </div>
+        <h1>Dictionary</h1>
+        <form onSubmit={Search}>
+          <label>What word would you like to search?</label>
+          <input
+            type="search"
+            placeholder="Search for a word"
+            onChange={handleKeywordChange}
+            className="searchEngine"
+          />
+        </form>
       </header>
       <main>
         <section className="phonetics">
