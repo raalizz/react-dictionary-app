@@ -42,7 +42,7 @@ export default function Dictionary() {
         </form>
       </header>
       <main>
-        <section className="phonetics">
+        <section className="Dictionary">
           <div className="container">
             <Results results={results} />
           </div>
