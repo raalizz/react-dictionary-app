@@ -9,11 +9,12 @@ export default function Meaning(props) {
       {props.meaning.definitions.map((definition, index) => {
         return (
           <div key={index}>
-            <p>
+            <p className="fs-6 text-start">
               {definition.definition}
               <br />
               <em>{definition.example} </em>
             </p>
+
             <Synonyms synonyms={definition.synonyms} />
           </div>
         );

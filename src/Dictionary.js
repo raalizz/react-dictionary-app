@@ -42,11 +42,9 @@ export default function Dictionary() {
         </form>
       </header>
       <main>
-        <section className="Dictionary">
-          <div className="container">
-            <Results results={results} />
-          </div>
-        </section>
+        <div>
+          <Results results={results} />
+        </div>
       </main>
       <Footer />
     </div>
