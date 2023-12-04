@@ -12,7 +12,7 @@ export default function Meaning(props) {
             <p className="fs-6 text-start">
               {definition.definition}
               <br />
-              <em>{definition.example} </em>
+              <em className="example">{definition.example} </em>
             </p>
 
             <Synonyms synonyms={definition.synonyms} />
