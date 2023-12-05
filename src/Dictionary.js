@@ -4,7 +4,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
 
 import Footer from "./Footer";
-import "./Dictionary.css";
+import "./Styles.css";
 import Results from "./Results";
 
 export default function Dictionary() {
